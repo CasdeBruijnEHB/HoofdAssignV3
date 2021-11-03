@@ -201,7 +201,7 @@ async function addCover(accessToken, playlistId, userID) {
         body: imagesource
     });
     const data2 = await result2.json();
-    console.log("FOto", data2);
+    //console.log("FOto", data2);
 }
 
 async function addTracks(accessToken, playlistId, userID) {
