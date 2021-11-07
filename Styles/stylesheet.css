@@ -26,22 +26,43 @@ nav {
     /*WEIGHT: MEDIUM*/
     font-weight: 500;
     width: 100%;
-    align-items: center;
-    display: inline;
 
 }
 
-nav p {
-    vertical-align: middle;
-    display: inline;
-    padding-right: 8%;
-
+#navItems {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 1%;
 }
 
-/*Enkel de pure navbalk (zonder logo)*/
+#navItems li {
+
+    float: left;
+}
+
 .nav {
-    text-decoration: underline 1.5pt;
+    padding-top: 3.5%;
+    padding-left: 15%;
+
 }
+
+#navItems a {
+    display: block;
+    text-decoration: underline;
+}
+
+
+#regularPageTitle {
+    /*WEIGHT: MEDIUM*/
+    font-weight: 500;
+    font-size: 40pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
 
 
 /*********************BODY*********************/
