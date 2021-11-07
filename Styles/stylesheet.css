@@ -1,0 +1,74 @@
+/*********************GENERAL*********************/
+@import url("https://use.typekit.net/fja6byn.css");
+
+* {
+    padding: 0pt;
+    background-color: rgb(53, 0, 0);
+    color: white;
+    font-family: quiche-sans, sans-serif;
+    /*WEIGHT: REGULAR*/
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/*********************HEADER*********************/
+#logo {
+    /*WEIGHT: BLACK*/
+    font-weight: 900;
+    font-size: 70pt;
+    display: inline;
+    padding-right: 25%;
+}
+
+nav {
+    /*WEIGHT: MEDIUM*/
+    font-weight: 500;
+    width: 100%;
+    align-items: center;
+    display: inline;
+
+}
+
+nav p {
+    vertical-align: middle;
+    display: inline;
+    padding-right: 8%;
+
+}
+
+/*Enkel de pure navbalk (zonder logo)*/
+.nav {
+    text-decoration: underline 1.5pt;
+}
+
+
+/*********************BODY*********************/
+/* Homepage with homepage picture */
+
+#foto {
+    text-align: center;
+    padding-top: 3%;
+}
+
+#foto img {
+    width: 40%;
+    height: auto;
+}
+
+/*********************FOOTER*********************/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 45%;
+
+}
+
+#footerText {
+
+    font-weight: 500;
+    /*Medium*/
+    font-size: 10pt;
+
+}
